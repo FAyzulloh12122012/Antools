@@ -1,0 +1,35 @@
+:root{
+    --bg-black:#000;
+    --color-black:#000;
+    --bg-white:#fff;
+    --color-white:#fff;
+    --bg-grey:grey;
+    --color-grey:grey;
+    --bg-orange:orange;
+    --color-orange:orange;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: var(--bg-black);
+    font-family: 'poppins';
+}
+.cointeyner{
+    max-width: 1200px;
+    min-width: 320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+button{
+    cursor: pointer;
+}
+ul,ol{
+    list-style: none;
+}
+body a{
+    text-decoration: none;
+}
