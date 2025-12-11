@@ -32,7 +32,7 @@
         width: 450px;
         height: 64px;
         border-radius: 10px;
-        background: var(--bg-black);
+        background: var(--bg-black-blue);
         color: var(--color-white);
         border: 1px solid var(--color-grey);
         outline: none;
@@ -50,4 +50,89 @@
         outline: none;
     }
 }
+}
+
+.most{
+    padding: 80px 0;
+
+    .most_content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 30px;
+
+        .most_title{
+            font-size: xx-large;
+            font-weight: 400;
+            color: var(--color-white);
+        }
+        .most_content-text{
+            width: 427px;
+            font-size: 15px;
+            font-weight: 400;
+            color: var(--color-grey);
+        }
+    }
+    .most_list{
+        display: grid;
+        grid-template-columns: repeat(3, 400px);
+        grid-template-rows: repeat(2, 300px);
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+
+        .most_item{
+           width: 100%;
+           height: 100%;
+           display: flex;
+           align-items: start;
+           justify-content: center;
+           flex-direction: column;
+           gap: 30px;
+           padding: 20px;
+        }
+        .most_subtitle{
+            font-size: large;
+            font-weight: 400;
+            color: var(--color-white);
+            margin-bottom: 5px;
+        }
+        .orange{
+            color: var(--color-orange);
+        }
+        .most_bottom{
+            display: flex;
+            align-items: start;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+
+            .most_text{
+                color: var(--color-grey);
+            }
+            .most_btn{
+                background: var(--color-orange);
+                color: var(--color-white);
+                width: 120px;
+                height: 38px;
+                border-radius: 10px;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+    .most_bottom-btn{
+        background: var(--bg-black-blue);
+        color: var(--color-orange);
+        width: 150px;
+        height: 38px;
+        display: block;
+        margin: 50px auto;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
 }

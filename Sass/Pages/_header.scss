@@ -7,7 +7,7 @@
     position: sticky;
     top: 0;
     z-index: 100;
-    background:var(--bg-black) ;
+    background:var(--bg-black-blue) ;
     padding: 10px;
 
     .header_wraper{
@@ -46,7 +46,7 @@
             .header_btn:nth-child(1){
                 width: 118px;
                 height: 48px;
-                background: var(--bg-black);
+                background: var(--bg-black-blue);
                 color: var(--color-white);
                 font-weight: 400;
                 font-size: 14px;

@@ -7,6 +7,8 @@
     --color-grey:grey;
     --bg-orange:orange;
     --color-orange:orange;
+    --bg-black-blue:#1E252B;
+    --color-black-blue:#1E252B;
 }
 *{
     box-sizing: border-box;
@@ -14,7 +16,7 @@
     padding: 0;
 }
 body{
-    background: var(--bg-black);
+    background: var(--bg-black-blue);
     font-family: 'poppins';
 }
 .cointeyner{
